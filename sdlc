@@ -1,7 +1,25 @@
 Quy trình phát triển phần mềm là một trong những yếu tố cực kỳ quan trọng đem lại sự thành công cho các nhà sản xuất phần mềm, nó giúp cho mọi thành viên trong dự án từ người cũ đến người mới, trong hay ngoài công ty đều có thể xử lý đồng bộ công việc tương ứng vị trí của mình thông qua cách thức chung của công ty.
 Các giai đoạn phát triển phần mềm:
 1. Requirement Analysis
+- Công việc: 
+  + Thực hiện khảo sát chi tiết yêu cầu khách hàng và tổng hợp vào tài liệu giải pháp (Phân tích nghiệp vụ, Phân tích yêu cầu, Đặc tả yêu cầu, Prototype)
+  + Tài liệu giải pháp phải mô tả đầy đủ các yêu cầu về chức năng, phi chức năng, giao diện
+- Đầu ra: Tài liệu đặc tả yêu cầu + Prototype
 2. Design
+- Công việc: 
+  + Thực hiện thiết kế và tổng hợp vào tài liệu thiết kế (Thiết kế tổng thể, Thiết kế chi tiết, Thiết kế CSDL)
+- Đầu ra: Thiết kế tổng thể, Thiết kế CSDL, Thiết kế chi tiết
 3. Implementation
+- Công việc: Lập trình viên thực hiện lập trình theo Tài liệu giải pháp và Tài liệu thiết kế đã được phê duyệt
+- Đầu ra: Source code
 4. Testing
+- Công việc: 
+  + CBKT tạo kịch bản kiểm thử theo Tài liệu giải pháp
+  + Thực hiện kiểm thử
+  + Cập nhật kết quả vào kịch bản kiểm thử
+  + Log lỗi lên tool
+  + Tester và Dev thực hiện phối hợp xử lý các lỗi cập nhật trên Hệ thống quản lý lỗi
+- Đầu ra: Testcases và Lỗi trên hệ thống quản lý lỗi.
 5. Evolution
+- Công việc: Triển khai sản phẩm cho khách hàng
+- Đầu ra: Biên bản triển khai với khách hàng
